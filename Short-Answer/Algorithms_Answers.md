@@ -9,5 +9,12 @@ b) Linear O(n) - This example is O(n) because the input size will increase and t
 c) Exponential O(c^n) -  This example is O(c^n) because as the input increases, the runtime will grow at a faster rate.
 
 ## Exercise II
+# eggs break at floor f+
+# wont break below f-
+I think I need to iterate over the floors and compair that to which floor we are on floor f+/-.
+If floor is < f any eggs that are thrown will be broken.
+Otherwise, any eggs thrown off on floor > f will not be broken.
+- I think the runtime complexity of this algorithm would be O(n) because with each iteration n will be checked for each level +/- and will remain the same size. 
 
+  
 
